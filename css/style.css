@@ -1,0 +1,453 @@
+/*
+    couldnt make darker
+    footer right div have a little border when hover 
+    BLOG , SERVICE CONTACT couldnt make the orange lines before and after
+    at the services couldn make items smaller
+    at the input and textarea after typing the border returns to black
+    the checkbox couldnt design
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(/images/Image.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    opacity: 1;
+    background: #00000066 0% 0% no-repeat padding-box;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #FFFFFF33;
+    height: 90px;    
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.headerLeftItems {
+    margin-right: 5px;
+}
+
+.headerLeftItems p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.car {
+    color: orangered;
+}
+
+.sharing {
+    color: white;
+
+}
+
+.headerRight {
+    width: 550px;
+    margin-right: 150px; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: none;
+}
+.headerRight div{
+    width: 25%;
+    margin-bottom: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerRight div:hover{
+    background-color: #FFFFFF33;
+}
+
+.headerRight a{
+    text-decoration: none;
+    color: #ffff;   
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------*/
+
+.bodyFirstPartFirstContainer {
+    width: 700px;
+    height: 600px;
+    color: white;
+    display: block;
+    margin-top: 300px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.bodyFirstPartHeading {
+    text-size-adjust: bold;
+
+}
+
+.bodyFirstPartHeading h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.bodyFirstPartParagraph p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bodyFirstPartFirstButton {
+    font-size: 16px;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #FF0000;
+    color: white;
+    width: 220px;
+    height: 66px;
+    margin-top: 30px;
+    border: #FF0000;
+    font-weight: bold;
+
+}
+
+.bodyFirstPartSecondButton {
+    color: #FF0000;
+    width: 220px;
+    height: 66px;
+    border-radius: 40px;
+    border: white;
+    font-weight: bold;
+
+}
+
+.iconDown {
+    display: flex;
+    justify-content: center;
+}
+
+.iconDown button {
+    background-color: #FF0000;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: #FF0000;
+}
+
+/*---------------------------*/
+.secondPartContainer {
+    height: 600px;
+}
+
+.secondPartContainerBlog {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.secondPartContainerBlog h1 {
+    font-size: 35px;
+}
+
+.secondPartContainerBox {
+    display: flex;
+    margin-left: 100px;
+}
+
+.secondPartContainer img {
+    height: 234px;
+    width: 352px;
+
+}
+
+.secondPartContainer h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secondPartContainerBox1 h1,
+.secondPartContainerBox2 h1,
+.secondPartContainerBox3 h1 {
+    color: #6A6A6A;
+    font-size: 19px;
+}
+
+.secondPartContainer p {
+    margin-bottom: 10px;
+    color: #6A6A6A;
+    font-size: 14px;
+
+}
+
+.secondPartContainer button {
+    width: 142px;
+    height: 40px;
+    background-color: #FF0000;
+    border-radius: 40px;
+    color: white;
+    border: #FF0000;
+    font-size: 14px;
+}
+
+.secondPartContainerBox1 {}
+
+/*-------------------------------*/
+
+.thirdPartContainer {
+    background-color: #28272C;
+    width: auto;
+    height: 900px;
+}
+
+.thirdPartService {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    width: 146px;
+    height: 47px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.service h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.thirdPartServices {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.thirdPartServices img {
+    width: 50%;
+}
+
+.thirdPartBox1 {
+    margin-left: 50px;
+}
+
+.thirdPartBox2 {}
+
+.thirdPartBox3 {}
+
+.thirdPartBox4 {
+    margin-right: 50px;
+
+}
+
+.thirdPartServices button {
+    width: 142px;
+    height: 40px;
+    background-color: #FF0000;
+    border-radius: 40px;
+    color: white;
+    border: #FF0000;
+    font-size: 14px;
+}
+
+.thirdPartServices h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.thirdPartServices p {
+    margin-bottom: 10px;
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+/*----------------------------*/
+.lastPartContainer {
+    width: auto;
+    height: 700px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+
+    height: 47px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact h1 {
+    font-size: 35px;
+    font-family: 'Nunito Sans', bold;
+}
+
+.lastPartImg {
+    display: flex;
+    justify-content: center;
+}
+
+.lastImg img {
+    width: 444px;
+    height: 316px;
+}
+
+.lastPartInfo {
+    width: 444px;
+    height: 347px;
+    margin-left: 20px;
+    align-content: flex-start;
+}
+
+.lastPartInfo .name {
+    width: 450px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+}
+.name:hover{
+    border: 1px solid #FF0000;
+}
+.name::placeholder{
+    color: #B2B2B2;
+    font-size: 16px;
+}
+.lastPartInfo .email {
+    width: 450px;
+    margin-top: 20px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+}
+.email:hover{
+    border: 1px solid #FF0000;
+}
+.email::placeholder{
+    color: #B2B2B2;
+    font-size: 16px;
+}
+.lastPartInfo textarea {
+    width: 450px;
+    margin-top: 20px;
+    height: 140px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+}
+.textarea:hover{
+    border: 1px solid #FF0000;
+}
+.textarea::placeholder{
+    color: #B2B2B2;
+    font-size: 16px;
+}
+.lastPartCheckbox {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+
+
+}
+
+.lastPartCheckbox .checkbox {
+    border: 1px solid #D1D1D1;
+
+}
+
+.lastPartCheckbox p {
+    font-size: 10px;
+    color: #D1D1D1;
+}
+
+
+
+.lastPartButton {
+    margin-left: 1080px;
+}
+
+.lastPartButton button {
+    width: 142px;
+    height: 40px;
+    border: 1px solid #FF0000;
+    box-shadow: 0px 3px 6px #FF00004D;
+    color: #FF0000;
+    background-color: #ffff;
+
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/*----------------------------*/
+.footerContainer {
+    background-color: #28272C;
+    height: 200px;
+}
+
+.footerMain {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.footerContent {
+    margin-left: 110px;
+    height: 110px;
+    width: auto;
+    display: flex;
+}
+
+.footerContentLast {
+    margin-left: 100px;
+
+}
+
+.copyright {
+    margin-left: 700px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #D1D1D1;
+}
+
+.footerContent a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', Bold;
+}
+
+.footerContent li {
+    list-style-type: none;
+}
+
+.footerContentFirstList .homePage {
+    color: #FF0000;
+}
